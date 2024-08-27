@@ -19,6 +19,8 @@ The goal was to deploy essential DevOps tools like Jenkins, SonarQube, Nexus, an
 - Deployed monitoring using Prometheus and Grafana to oversee the health of both the application and Jenkins server.
 
 ## Result
+![Deployed BoardGame App](images/boardgame.png)  
+
 Achieved a fully automated, end-to-end CI/CD pipeline with comprehensive monitoring, ensuring smooth and reliable application deployment. The infrastructure, managed entirely through Terraform, is now scalable, consistent, and easy to replicate. Monitoring and alerting systems are in place, providing real-time insights into application and server health, ensuring quick response times to any issues.
 
 ## Tags
