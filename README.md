@@ -11,12 +11,12 @@ I was tasked with setting up a robust, automated CI/CD pipeline and monitoring s
 The goal was to deploy essential DevOps tools like Jenkins, SonarQube, Nexus, and a monitoring stack (Prometheus & Grafana) across multiple VMs. Additionally, I needed to set up a Kubernetes (GKE) cluster for our application deployment, ensuring the entire pipeline was automated and monitored effectively.
 
 ## 🔧 Action
-✅ Deployed four VMs using Terraform, each dedicated to Jenkins, SonarQube, Nexus, and monitoring tools (Prometheus & Grafana).
-✅ Installed Jenkins and other necessary tools on the VMs using startup scripts for seamless setup.
-✅ Set up a GKE cluster with 2 nodes using Terraform, where our application would be deployed.
-✅ Configured Jenkins with a multi-stage pipeline, including Maven compile and unit tests, SonarQube scan, Trivy code scan, Maven build, Nexus repository management, Docker image build, Trivy image scan, Docker image push, and deployment on Kubernetes.
-✅ Integrated email notifications within Jenkins to alert the team on the success or failure of the build pipeline.
-✅ Deployed monitoring using Prometheus and Grafana to oversee the health of both the application and Jenkins server.
+- Deployed four VMs using Terraform, each dedicated to Jenkins, SonarQube, Nexus, and monitoring tools (Prometheus & Grafana).
+- Installed Jenkins and other necessary tools on the VMs using startup scripts for seamless setup.
+- Set up a GKE cluster with 2 nodes using Terraform, where our application would be deployed.
+- Configured Jenkins with a multi-stage pipeline, including Maven compile and unit tests, SonarQube scan, Trivy code scan, Maven build, Nexus repository management, Docker image build, Trivy image scan, Docker image push, and deployment on Kubernetes.
+- Integrated email notifications within Jenkins to alert the team on the success or failure of the build pipeline.
+- Deployed monitoring using Prometheus and Grafana to oversee the health of both the application and Jenkins server.
 
 ## 🎯 Result
 ![Deployed BoardGame App](images/boardgame.png)  
