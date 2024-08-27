@@ -1,4 +1,4 @@
-# New Project Alert: Automated CI/CD Pipeline and Monitoring on Google Cloud with Terraform 🌐
+# Jenkins Project: Automated CI/CD Pipeline and Monitoring on Google Cloud with Terraform 🌐
 
 ## Architecture
 
